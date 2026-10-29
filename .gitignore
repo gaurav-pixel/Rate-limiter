@@ -1,0 +1,24 @@
+# Binaries
+rate-limiter-gateway
+rate-limiter-gateway.exe
+*.exe
+*.out
+
+# Test cache and coverage
+*.test
+*.prof
+coverage.out
+coverage.html
+
+# Go build cache
+/vendor/
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+*.env
